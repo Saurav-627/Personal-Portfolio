@@ -69,6 +69,7 @@
         font-size: 16px;
         padding: 12px 17px;
         margin: 28px 0px 20px 0px;
+        cursor: pointer;
     }
 
     .mobile_menu {

@@ -105,6 +105,11 @@ nav .logo a img {
     font-weight: 600;
     font-family: Poppins;
     font-size: 16px;
+    transition:.6s;
+
+}
+.navbar ul li a:hover{
+    color: #741ff5;
 }
 
 .btn_area .btn {
@@ -119,10 +124,17 @@ nav .logo a img {
     background: var(--bg06);
     border: none;
     font-weight: 600;
-}
+    cursor: pointer;
+    transition: .6s;
 
+}
+.btn_area .btn:hover{
+    background: var(--bgGD04);
+    color: #000;
+}
 .OC_btn {
     background: transparent;
+    cursor: pointer;
     font-size: 20px;
     padding: 20px;
     color: #fff;
@@ -359,6 +371,7 @@ nav .logo a img {
     font-size: 18px;
     padding: 15px 20px;
     margin: 45px 0px 20px 0px;
+    cursor: pointer;
 }
 
 .banner_content .Cnt_info .btn_area .btn i {
@@ -558,4 +571,12 @@ nav .logo a img {
 
 .flw_icon a i {
     transform: rotate(-90deg);
+}
+.btn-area .btn{
+    transition: .6s;
+}
+.btn-area .btn:hover{
+    background-color: aquamarine;
+    color: #000;
+
 }
